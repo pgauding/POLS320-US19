@@ -1,0 +1,1882 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass scrartcl
+\begin_preamble
+\usepackage{multicol}
+
+\usepackage{graphicx}
+\usepackage{listings}
+
+\usepackage{color}
+\lstset{tabsize=2, breaklines=true, 
+  breakatwhitespace=true,
+  language=R,
+  captionpos=b,
+  frame=single,
+  framerule=0.2pt,
+  framesep=1pt,
+  numbers=left,
+  numberstyle=\tiny,
+  numbersep=5pt,
+  showstringspaces=false,
+  basicstyle=\footnotesize,
+  identifierstyle=\color{magenta},
+  keywordstyle=\bfseries,
+  commentstyle=\color{darkgreen},
+  stringstyle=\color{red},
+  backgroundcolor=\color[gray]{0.97}
+}
+\hypersetup{
+   urlcolor=blue
+   citecolor=black
+}
+
+\usepackage{caption}
+\end_preamble
+\use_default_options true
+\begin_modules
+logicalmkup
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "lmss" "default"
+\font_typewriter "lmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format pdf2
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+POLSC 110: Introduction to Political Science
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset VSpace 0.3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="right" valignment="top" width="3in">
+<column alignment="right" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Patrick Gauding
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spring 2019
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+gauding@ksu.edu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 2:30-3:45 TU
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Calvin 1C
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kedzie Hall 106
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Office Hours: 1-2 TU and by appointment
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset VSpace 0.3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Goals:
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+May you live in interesting times.
+\end_layout
+
+\end_inset
+
+ - Sir Austen Chamberlain
+\end_layout
+
+\begin_layout Standard
+The essential goals of this course are to introduce the student to the what,
+ how and why of political science as a social science discipline.
+ We do indeed live in interesting political times, and understanding both
+ politics and how politics is studied is an essential quality for engaged
+ citizenship.
+ This course is designed to give you a broad overview of the discipline
+ and how politics is understood in an academic sense.
+ Political scientists seek to understand how people make decisions both
+ big and small, how they construct their worldviews, and how they govern
+ themselves.
+ These common ideas will be explored in depth in several dimensions, ranging
+ from political ideologies, such as liberalism and conservatism, to political
+ institutions, like the Presidency or Parliament, to systems of international
+ relations, to individuals making decisions for an election, and beyond.
+ At a minimum, students should be able to converse about political subjects
+ with a reasonable level of familiarity and have the tools and ability to
+ make informed decisions about political matters.
+\end_layout
+
+\begin_layout Section*
+Course Objectives:
+\end_layout
+
+\begin_layout Standard
+By the end of the course, students should be able to:
+\end_layout
+
+\begin_layout Enumerate
+Identify and define the basic concepts used in political science.
+\end_layout
+
+\begin_layout Enumerate
+Describe what is 
+\begin_inset Quotes eld
+\end_inset
+
+scientific
+\begin_inset Quotes erd
+\end_inset
+
+ about political science, and how the discipline differs from political
+ opinion and punditry.
+\end_layout
+
+\begin_layout Enumerate
+Identify and describe common political ideologies.
+\end_layout
+
+\begin_layout Enumerate
+Identify and describe the political institutions of states, and how democracies
+ and nondemocracies differ in this regard.
+\end_layout
+
+\begin_layout Enumerate
+Identify and describe common understandings of international relations.
+\end_layout
+
+\begin_layout Enumerate
+Apply concepts discussed in this course to current political problems.
+\end_layout
+
+\begin_layout Section*
+Attendance:
+\end_layout
+
+\begin_layout Standard
+Strictly speaking, attendance is not mandatory for this course.
+ This means that I will not take attendance nor will I give grade credit
+ (attendance points) for having attended lecture.
+ You are adults who are capable of making decisions about how best to use
+ your time, and if that includes not attending this lecture, I will not
+ be personally offended.
+\end_layout
+
+\begin_layout Standard
+With that said, if you do not attend lecture, you will certainly fail this
+ course.
+ The bulk of the material will be outlined in lectures and slides that will
+ not be distributed online in any form at any time.
+ I will not go over a lecture in entirety in office hours.
+ 
+\end_layout
+
+\begin_layout Standard
+I will share material if you miss a lecture due to illness.
+ Please do not come to class if you are sick.
+\end_layout
+
+\begin_layout Section*
+Grading:
+\end_layout
+
+\begin_layout Standard
+Grading for this course will be simple.
+ There will be two components to the final grade.
+ There will be five exams offered (including final).
+ The average of the highest four will be your semester test grade, which
+ will constitute 80% of your final grade.
+ The remaining 20% will be earned through in-class short writing exercises,
+ which will ask you to consider and apply the reading, lecture material,
+ and your own understanding of the concepts at hand.
+ There will be 1-2 writing exercises per unit.
+ These assessments will not be announced ahead of time.
+ The short writing portion of the grade will be calculated by dropping the
+ lowest graded essay and averaging the rest.
+ No extra credit will be offered, nor will I accept any make-up essays.
+\end_layout
+
+\begin_layout Standard
+Grading scale as follows:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="right" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+90.00 +
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80.00 - 89.99
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.00 - 79.99
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60.00 - 69.99
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59.99 or lower
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Communication:
+\end_layout
+
+\begin_layout Standard
+I am most easily available via email at 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+gauding@ksu.edu.
+\end_layout
+
+\end_inset
+
+ I strive to respond with 24h in most cases (except as outlined below).
+ If I have not responded within 48h, please feel free to reach out again.
+ I am also available at the office hours listed at the top of this syllabus.
+\end_layout
+
+\begin_layout Standard
+Students are expected to communicate effectively and efficiently via K-State
+ email.
+ This includes addressing the email with a salutation, a concise body that
+ contains the question or issue at hand, and some sort of sign off.
+ Emails not containing these elements may be ignored at the instructor's
+ discretion.
+ Additionally, questions that can be answered by reading the syllabus will
+ receive no response.
+ Finally, I will communicate with students via K-State email 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+only
+\end_layout
+
+\end_inset
+
+.
+ Please do not use any other email address.
+\end_layout
+
+\begin_layout Section*
+Course Plan:
+\end_layout
+
+\begin_layout Quote
+\noindent
+\align left
+Course Text: Grigsby, Ellen.
+ 2015.
+ 
+\begin_inset Flex Emph
+status open
+
+\begin_layout Plain Layout
+Analyzing Politics
+\end_layout
+
+\end_inset
+
+, 6e.
+ Belmont, CA: Cengage Learning
+\end_layout
+
+\begin_layout Standard
+The course follows the course text closely, and the readings are essential.
+ Students are expected to have read and be prepared to discuss the material
+ in the Grigsby book by the dates listed.
+ Lecture material will overlap with the text, but will not completely parallel
+ it.
+ In other words, you must attend lecture to be fully informed on the material
+ you will be tested on.
+ Additional readings may be posted on Canvas at the instructor's discretion,
+ with sufficient notice for students to prepare.
+\end_layout
+
+\begin_layout Standard
+The dates listed below are the dates by which students must have read the
+ assigned material.
+ Please come to class ready to discuss the chapter.
+ We 
+\bar under
+will
+\bar default
+ have class on the dates not listed! Lecture will continue on the current
+ unit on those dates.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="29" columns="3">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="2.5cm">
+<column alignment="left" valignment="top" width="3cm">
+<column alignment="left" valignment="top" width="9.5cm">
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Unit 1: Essentials
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-01-24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+What is political science? (Ch.
+ 1)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-01-29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Scientific method and political science (Ch.
+ 2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-02-05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Key concepts in Political Science (Ch.
+ 3)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-02-12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Political theory (Ch.
+ 4)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+EXAM 1:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+2019-02-19
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Unit 2: Ideologies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-02-21
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Liberalism, Conservatism, and Socialism (Ch.
+ 5)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-02-28
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fascism (Ch.
+ 6)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-03-05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Feminism, Environmentalism, Postmodernism (Ch.
+ 7)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+EXAM 2:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+2019-03-07
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Unit 3: Comparative Politics and Institutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-03-19
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Democratic and non-democratic systems (Ch.
+ 8)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-03-26
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Interest groups, political parties, and elections (Ch.
+ 9)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-04-02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The political institutions of democracies (Ch.
+ 10)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+EXAM 3:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+2019-04-11
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Unit 4: International Relations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-04-16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Introduction to IR (Ch.
+ 11)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-04-18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Contemporary Issues (Ch.
+ 12)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+EXAM 4:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+2019-04-23
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+Unit 5: Why All of This Matters: Modern Issues and Citizenship
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-04-25
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Challenges in Political Science in the Modern Era
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-04-30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Local Government and Governance: 
+\end_layout
+
+\begin_layout Plain Layout
+Power Enacted on the Citizenry
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2019-05-02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Credibility, Accountability, and Access: 
+\end_layout
+
+\begin_layout Plain Layout
+Science and the Public
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+FINAL EXAM:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+2019-05-17
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
+9:40 - 11:30 AM, 106 Kedzie Hall
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Academic Honesty:
+\end_layout
+
+\begin_layout Standard
+Kansas State University has an Honor and Integrity System based on personal
+ integrity, which is presumed to be sufficient assurance that, in academic
+ matters, one's work is performed honestly and without unauthorized assistance.
+ Undergraduate and graduate students, by registration, acknowledge the jurisdict
+ion of the Honor and Integrity System.
+ The policies and procedures of the Honor and Integrity System apply to
+ all full and part-time students enrolled in undergraduate and graduate
+ courses on-campus, off-campus, and via distance learning.
+ The Honor and Integrity System website can be reached via the following
+ URL: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+www.k-state.edu/honor
+\end_layout
+
+\end_inset
+
+.
+ A component vital to the Honor and Integrity System is the inclusion of
+ the Honor Pledge which applies to all assignments, examinations, or other
+ course work undertaken by students.
+ The Honor Pledge is implied, whether or not it is stated: "On my honor,
+ as a student, I have neither given nor received unauthorized aid on this
+ academic work." A grade of XF can result from a breach of academic honesty.
+ The F indicates failure in the course; the X indicates the reason is an
+ Honor Pledge violation.
+\end_layout
+
+\begin_layout Section*
+Disability and Access Policies:
+\end_layout
+
+\begin_layout Standard
+Students with disabilities who need classroom accommodations, access to
+ technology, or information about emergency building/campus evacuation processes
+ should contact the Student Access Center and/or their instructor.
+ Services are available to students with a wide range of disabilities including,
+ but not limited to, physical disabilities, medical conditions, learning
+ disabilities, attention deficit disorder, depression, and anxiety.
+ If you are a student enrolled in campus/online courses through the Manhattan
+ or Olathe campuses, contact the Student Access Center at 
+\begin_inset CommandInset href
+LatexCommand href
+name "accesscenter@k-state.edu"
+target "accesscenter@k-state.edu"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+785-532-6441
+\end_layout
+
+\end_inset
+
+; for K-State Polytechnic campus, contact Academic and Student Services
+ at 
+\begin_inset CommandInset href
+LatexCommand href
+name "polytechnicadvising@ksu.edu"
+target "polytechnicadvising@ksu.edu"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+ or call 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+785-826-2974
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section*
+Classroom Conduct Policy:
+\end_layout
+
+\begin_layout Standard
+All student activities in the University, including this course, are governed
+ by the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Student Judicial Conduct Code"
+target "http://www.k-state.edu/sga/judicial/"
+literal "false"
+
+\end_inset
+
+ as outlined in the Student Governing Association 
+\begin_inset CommandInset href
+LatexCommand href
+name "By Laws"
+target "http://www.k-state.edu/sga/old_files/sgadocs/ByLaws.pdf"
+literal "false"
+
+\end_inset
+
+, Article V, Section 3, number 2.
+ Students who engage in behavior that disrupts the learning environment
+ may be asked to leave the class.
+\end_layout
+
+\begin_layout Section*
+Concealed Carry Policy:
+\end_layout
+
+\begin_layout Standard
+Kansas State University prohibits the possession of firearms, explosives,
+ and other weapons on any University campus, with certain limited exceptions,
+ including the lawful concealed carrying of handguns, as provided in the
+ University Weapons Policy, found at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.k-state.edu/police/weapons/index.html
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+You are encouraged to take the online weapons policy education module (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.k-state.edu/police/weapons/index.html
+\end_layout
+
+\end_inset
+
+) to ensure you understand the requirements of the policy, including the
+ requirements related to concealed carrying of handguns on campus.
+ Students possessing a concealed handgun on campus must be 21 years of age
+ or older and otherwise lawfully eligible to carry.
+ All carrying requirements of the policy must be observed in this class,
+ including but not limited to the requirement that a concealed handgun be
+ completely hidden from view, securely held in a holster that meets the
+ specifications of the policy, carried without a chambered round of ammunition,
+ and that any external safety be in the “on” position.
+\end_layout
+
+\begin_layout Standard
+If an individual carries a concealed handgun in a personal carrier such
+ as a backpack, purse, or handbag, the carrier must remain within the individual
+’s exclusive and uninterrupted control.
+ This includes wearing the carrier with a strap, carrying or holding the
+ carrier, or setting the carrier next to or within the immediate reach of
+ the individual.
+\end_layout
+
+\begin_layout Standard
+Each individual who lawfully possesses a handgun on campus shall be wholly
+ and solely responsible for carrying, storing and using that handgun in
+ a safe manner and in accordance with the law, Board policy and University
+ policy.
+ All reports of suspected violation of the weapons policy are made to the
+ University Police Department by picking up any Emergency Campus Phone or
+ by calling 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+785-532-6412
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+Technology Policy
+\end_layout
+
+\begin_layout Standard
+I do not particularly object to the use of technology in the classroom.
+ There is a large amount of research that suggests that pencil and paper
+ notetaking techniques lead to better outcomes in lecture-based classes.
+ Despite this, I am choosing not to restrict students' usage of laptops
+ or tablets.
+ 
+\end_layout
+
+\begin_layout Standard
+I do ask students to respect a few rules on this subject:
+\end_layout
+
+\begin_layout Enumerate
+Students who intend to use laptops (other than those with specific accommodation
+s needs) should sit further back in the lecture hall.
+\end_layout
+
+\begin_layout Enumerate
+Phone usage should be kept to a minimum.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+If I ask you to curtail your phone usage, please abide by my request.
+ Repeated violations of this may result in dismissal from lecture for the
+ rest of the day.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Please take any phone calls outside the lecture hall.
+\end_layout
+
+\begin_layout Section*
+Caveat
+\end_layout
+
+\begin_layout Standard
+The instructor reserves the right to modify, supplement, or make changes
+ during the semester as necessary.
+\end_layout
+
+\end_body
+\end_document
