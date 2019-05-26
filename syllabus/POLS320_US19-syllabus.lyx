@@ -455,14 +455,13 @@ I am most easily available via email at
 status open
 
 \begin_layout Plain Layout
-gauding@ksu.edu.
+patrick.gauding@ku.edu.
 \end_layout
 
 \end_inset
 
- I strive to respond with 24h in most cases (except as outlined below).
+ I strive to respond with 48h in most cases (except as outlined below).
  If I have not responded within 48h, please feel free to reach out again.
- I am also available at the office hours listed at the top of this syllabus.
 \end_layout
 
 \begin_layout Standard
@@ -473,8 +472,12 @@ Students are expected to communicate effectively and efficiently via K-State
  Emails not containing these elements may be ignored at the instructor's
  discretion.
  Additionally, questions that can be answered by reading the syllabus will
- receive no response.
- Finally, I will communicate with students via K-State email 
+ receive 
+\bar under
+no response
+\bar default
+.
+ Finally, I will communicate with students via KU email 
 \begin_inset Flex Emph
 status open
 
@@ -1753,7 +1756,7 @@ status open
 \end_layout
 
 \begin_layout Section*
-Technology Policy
+Technology Policy:
 \end_layout
 
 \begin_layout Standard
@@ -1791,7 +1794,7 @@ Please take any phone calls outside the lecture hall.
 \end_layout
 
 \begin_layout Section*
-Caveat
+Caveat:
 \end_layout
 
 \begin_layout Standard
