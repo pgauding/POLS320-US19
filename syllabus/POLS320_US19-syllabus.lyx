@@ -552,11 +552,33 @@ patrick.gauding@ku.edu.
 \end_layout
 
 \begin_layout Standard
+I expect that you will communicate issues with me promptly.
+ Given the accelerated nature of this course, as well as a lack of in-person
+ interaction, the only way I will know if you are having trouble with some
+ section of the course or a a technical issue is by your communication with
+ me.
+ If I'm not hearing from you, my default position is that things are going
+ at least ok for you, if not truly hunky-dory.
+ If you are having issues, 
+\bar under
+please
+\bar default
+ reach out to me as soon as possible.
+\end_layout
+
+\begin_layout Subsection*
+Email Etiquette:
+\end_layout
+
+\begin_layout Standard
 Students are expected to communicate effectively and efficiently via KU
  email.
  This includes addressing the email with a salutation, a concise body that
  contains the question or issue at hand, and some sort of sign off.
- Emails not containing these elements may be ignored at the instructor's
+\end_layout
+
+\begin_layout Standard
+Emails not containing these elements may be ignored at the instructor's
  discretion.
  Additionally, questions that can be answered by reading the syllabus will
  receive 
@@ -564,7 +586,10 @@ Students are expected to communicate effectively and efficiently via KU
 no response
 \bar default
 .
- Finally, I will communicate with students via KU email 
+\end_layout
+
+\begin_layout Standard
+Finally, I will communicate with students via KU email 
 \begin_inset Flex Emph
 status open
 
