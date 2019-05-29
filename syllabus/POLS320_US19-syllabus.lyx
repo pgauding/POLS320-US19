@@ -1523,39 +1523,23 @@ status open
 \end_layout
 
 \begin_layout Section*
-Academic Honesty:
+Academic Integrity:
 \end_layout
 
 \begin_layout Standard
-Kansas State University has an Honor and Integrity System based on personal
- integrity, which is presumed to be sufficient assurance that, in academic
- matters, one's work is performed honestly and without unauthorized assistance.
- Undergraduate and graduate students, by registration, acknowledge the jurisdict
-ion of the Honor and Integrity System.
- The policies and procedures of the Honor and Integrity System apply to
- all full and part-time students enrolled in undergraduate and graduate
- courses on-campus, off-campus, and via distance learning.
- The Honor and Integrity System website can be reached via the following
- URL: 
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-www.k-state.edu/honor
-\end_layout
+I am intolerant of plagiarism.
+ ...
+ If you are uncertain on the meaning of academic integrity, I encourage
+ you to take the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Academic Integrity Quiz"
+target "http://studentaffairs.ku.edu/academic-integrity"
+literal "false"
 
 \end_inset
 
-.
- A component vital to the Honor and Integrity System is the inclusion of
- the Honor Pledge which applies to all assignments, examinations, or other
- course work undertaken by students.
- The Honor Pledge is implied, whether or not it is stated: "On my honor,
- as a student, I have neither given nor received unauthorized aid on this
- academic work." A grade of XF can result from a breach of academic honesty.
- The F indicates failure in the course; the X indicates the reason is an
- Honor Pledge violation.
+ on the KU Student Affairs website.
 \end_layout
 
 \begin_layout Section*
