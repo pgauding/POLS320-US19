@@ -31,7 +31,7 @@
   backgroundcolor=\color[gray]{0.97}
 }
 \hypersetup{
-   urlcolor=blue
+   urlcolor=blue,
    citecolor=black
 }
 
