@@ -293,6 +293,13 @@ Reading Quizzes (RQs)
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -341,6 +348,13 @@ Discussion Board (DPs)
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -359,6 +373,13 @@ Online Journal (JEs)
 11:59pm each Sunday
 \series default
 ).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -383,6 +404,13 @@ Final Paper
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -404,6 +432,13 @@ Peer Review
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -418,6 +453,13 @@ n Paper Guide) explaining how you have incorporated (or not) the peer feedback
 11:59pm on Friday July 26
 \series default
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -698,6 +740,13 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Grading scale as follows:
 \end_layout
 
@@ -882,10 +931,7 @@ Students are expected to communicate effectively and efficiently via KU
  email.
  This includes addressing the email with a salutation, a concise body that
  contains the question or issue at hand, and some sort of sign off.
-\end_layout
-
-\begin_layout Standard
-Emails not containing these elements may be ignored at the instructor's
+ Emails not containing these elements may be ignored at the instructor's
  discretion.
  Additionally, questions that can be answered by reading the syllabus will
  receive 
@@ -965,19 +1011,6 @@ A Practical Guide for Policy Analysis: The Eightfold Path to More Effective
 \begin_layout Standard
 This text is not required, but may be helpful in constructing your final
  paper, and is an essential text for those planning a career in policy analysis.
-\end_layout
-
-\begin_layout Subsubsection*
-Play the game, win the prize:
-\end_layout
-
-\begin_layout Standard
-The course follows the course text closely, and the readings are essential.
- Tested material is related to the text, but also to the student's processing
- of the material.
- In other words, you need to both do the reading and digest the material.
- If you are hunting and pecking through the text at 11:00 on Sunday night,
- don't expect success, and don't expect sympathy from me if you do so.
 \end_layout
 
 \begin_layout Standard
@@ -1983,6 +2016,19 @@ Submit Final Paper, Submit Reflection Paper
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection*
+Play the game, win the prize:
+\end_layout
+
+\begin_layout Standard
+The course follows the course text closely, and the readings are essential.
+ Tested material is related to the text, but also to the student's processing
+ of the material.
+ In other words, you need to both do the reading and digest the material.
+ If you are hunting and pecking through the text at 11:00 on Sunday night,
+ don't expect success, and don't expect sympathy from me if you do so.
 \end_layout
 
 \begin_layout Section*
