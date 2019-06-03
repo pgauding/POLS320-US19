@@ -1980,14 +1980,22 @@ literal "false"
 
 \end_inset
 
- on the KU Student Affairs website.
+ on the KU Student Affairs website and see the 
+\begin_inset CommandInset href
+LatexCommand href
+name "KU Libraries guide"
+target "https://guides.lib.ku.edu/c.php?g=95332&p=616638"
+literal "false"
+
+\end_inset
+
+ to avoiding plagiarism.
 \end_layout
 
 \begin_layout Standard
 Any student caught plagiarizing on an assignment will fail that assignment,
  and additional penalties will be pursued up to and including failing the
  course as a whole and expulsion from the university.
- Please note that
 \end_layout
 
 \begin_layout Section*
