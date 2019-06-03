@@ -281,7 +281,7 @@ Reading Quizzes (RQs)
 \series default
 \bar default
 : There will be six (non-cumulative) quizzes to evaluate your knowledge
- and understanding of the material- Weeks 1-6.
+ and understanding of the material - Weeks 1-6.
  Each reading quiz will have 10 multiple-choice questions.
  All quizzes will be taken online by the end of each lesson (
 \series bold
@@ -307,7 +307,7 @@ Comprehension Quizzes (CQs)
 \series default
 \bar default
 : There will be six (non-cumulative) quizzes to evaluate your knowledge
- and understanding of the material- Weeks 1-6.
+ and understanding of the material - Weeks 1-6.
  These will have 1 short answer (250 words max) questions per chapter.
  All quizzes will be taken online by the end of each lesson (
 \series bold
@@ -479,7 +479,16 @@ Grade breakdown as follows:
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
 Weeks 1-6
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -599,7 +608,16 @@ Online Journal Entries (4 total)
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Flex Strong
+status open
+
+\begin_layout Plain Layout
 Weeks 7-8
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
