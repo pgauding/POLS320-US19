@@ -240,6 +240,60 @@ Your paper draft is due by 11:59pm on Friday July 26.
 \end_layout
 
 \begin_layout Section*
+Paper Formatting Particulars:
+\end_layout
+
+\begin_layout Standard
+All papers must follow the following formatting requirements:
+\end_layout
+
+\begin_layout Itemize
+12 pt.
+ font, standard typeface (e.g.
+ Times New Roman, Cambria, Garamond, etc.)
+\end_layout
+
+\begin_layout Itemize
+1 inch margins
+\end_layout
+
+\begin_layout Itemize
+1500 - 2000 words
+\end_layout
+
+\begin_layout Itemize
+A title page with name, class, paper topic and title (does not count toward
+ word count)
+\end_layout
+
+\begin_layout Itemize
+Page numbers with last name in header of each text page (i.e.
+ not the title page)
+\end_layout
+
+\begin_layout Itemize
+All citations in 
+\begin_inset CommandInset href
+LatexCommand href
+name "APSA"
+target "https://mk0apsaconnectbvy6p6.kinstacdn.com/wp-content/uploads/sites/43/2018/11/Style-Manual-for-Political-Science-2018.pdf"
+literal "false"
+
+\end_inset
+
+ or 
+\begin_inset CommandInset href
+LatexCommand href
+name "Chicago/Turabian"
+target "https://www.chicagomanualofstyle.org/home.html"
+literal "false"
+
+\end_inset
+
+ formatting
+\end_layout
+
+\begin_layout Section*
 Getting Started:
 \end_layout
 
