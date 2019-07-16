@@ -130,7 +130,7 @@ enumitem
 Paper Draft Peer Review Assignments
 \end_layout
 
-\begin_layout Title
+\begin_layout Author
 POLS 320 - US 19
 \end_layout
 
@@ -289,7 +289,9 @@ status open
 
 \begin_layout Plain Layout
 
-a_schlatter@ku.edu
+a
+\backslash
+_schlatter@ku.edu
 \end_layout
 
 \end_inset
