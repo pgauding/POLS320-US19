@@ -1,0 +1,3 @@
+1. What is involved in problem analysis? Explain how trying to define
+a simple problem is often political. Give your own example of
+analyzing a problem (such as illegal immigration).
