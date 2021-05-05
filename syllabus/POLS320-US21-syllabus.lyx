@@ -170,7 +170,7 @@ Patrick Gauding
 \begin_inset Text
 
 \begin_layout Plain Layout
-Summer 2019
+Summer 2021
 \end_layout
 
 \end_inset
@@ -219,7 +219,7 @@ Online
 \begin_inset Text
 
 \begin_layout Plain Layout
-Office Hours: Email only
+Office Hours: By appointment
 \end_layout
 
 \end_inset
@@ -402,12 +402,12 @@ Final Paper
  (see Final Paper Guide).
  You will turn in a paper draft by 
 \series bold
-11:59pm on Thursday, July 18
+11:59pm on Thursday, July 22
 \series default
  to me and a designated peer for review.
  You will submit the final version of the paper by 
 \series bold
-11:59pm on Friday, July 26
+11:59pm on Friday, July 30
 \series default
 .
  All citations must be in either APSA or Chicago/Turabian formatting.
@@ -431,12 +431,12 @@ Peer Review
  paper draft (see Peer Review Guide).
  You will receive their draft by 
 \series bold
-11:59pm on Thursday, July 18
+11:59pm on Thursday, July 22
 \series default
 .
  You must submit your peer review by 
 \series bold
-11:59pm on Sunday, July 21
+11:59pm on Sunday, July 25
 \series default
  to both your peer reviewer and me.
 \end_layout
@@ -460,7 +460,7 @@ n Paper Guide) explaining how you have incorporated (or not) the peer feedback
  you received on your draft.
  You must submit your reflection paper by 
 \series bold
-11:59pm on Friday July 26
+11:59pm on Friday July 30
 \series default
 .
 \end_layout
@@ -998,7 +998,7 @@ Required Text:
 \align left
 Kraft, Michael E., and Scott R.
  Furlong.
- 2017.
+ 2021.
  
 \begin_inset Flex Emph
 status open
@@ -1009,8 +1009,9 @@ Public Policy: Politics, Analysis, and Alternatives
 
 \end_inset
 
-, 6e.
+, 7e.
  Thousand Oaks, CA: CQ Press.
+ (Older editions acceptable).
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1066,7 +1067,7 @@ This text is not required, but may be helpful in constructing your final
 status open
 
 \begin_layout Plain Layout
-Lesson 1: 6/4 - 6/9
+Lesson 1: 6/8 - 6/13
 \end_layout
 
 \end_inset
@@ -1193,7 +1194,7 @@ Reading Quiz, Comprehension Quiz, Discussion Post, Journal Entry
 status open
 
 \begin_layout Plain Layout
-Lesson 2: 6/10 - 6/16
+Lesson 2: 6/14 - 6/20
 \end_layout
 
 \end_inset
@@ -1320,7 +1321,7 @@ Reading Quiz, Comprehension Quiz, Discussion Post
 status open
 
 \begin_layout Plain Layout
-Lesson 3: 6/17 - 6/23
+Lesson 3: 6/21 - 6/27
 \end_layout
 
 \end_inset
@@ -1447,7 +1448,7 @@ Reading Quiz, Comprehension Quiz, Discussion Post, Journal Entry
 status open
 
 \begin_layout Plain Layout
-Lesson 4: 6/24 - 6/30
+Lesson 4: 6/28 - 7/4
 \end_layout
 
 \end_inset
@@ -1500,6 +1501,7 @@ Readings:
 
 \begin_layout Plain Layout
 K&F Ch.
+ 7, Ch.
  4
 \end_layout
 
@@ -1573,7 +1575,7 @@ Reading Quiz, Comprehension Quiz, Discussion Post
 status open
 
 \begin_layout Plain Layout
-Lesson 5: 7/1 - 7/7
+Lesson 5: 7/5 - 7/11
 \end_layout
 
 \end_inset
@@ -1699,7 +1701,7 @@ Reading Quiz, Comprehension Quiz, Discussion Post, Journal Entry
 status open
 
 \begin_layout Plain Layout
-Lesson 6: 7/8 - 7/14
+Lesson 6: 7/12 - 7/18
 \end_layout
 
 \end_inset
@@ -1825,7 +1827,7 @@ Reading Quiz, Comprehension Quiz, Discussion Post, Journal Entry
 status open
 
 \begin_layout Plain Layout
-Lesson 7: 7/15 - 7/21
+Lesson 7: 7/19 - 7/25
 \end_layout
 
 \end_inset
@@ -1908,7 +1910,7 @@ Tasks:
 \begin_layout Plain Layout
 Submit Draft (
 \series bold
-11:59p on Thursday, 18 July)
+11:59p on Thursday, 22 July)
 \end_layout
 
 \end_inset
@@ -1952,7 +1954,7 @@ Submit Draft (
 status open
 
 \begin_layout Plain Layout
-Lesson 8: 7/22 - 7/26
+Lesson 8: 7/26 - 7/30
 \end_layout
 
 \end_inset
@@ -2248,19 +2250,27 @@ Harassment Policy:
 \end_layout
 
 \begin_layout Standard
-Title IX makes it clear that violence and harassment based on sex and gender,
- including violence and harassment based on sexual orientation, are a Civil
- Rights offense subject to the same kinds of accountability and the same
- kinds of support applied to offenses against other protected categories
- such as race, national origin, etc.
+\begin_inset CommandInset href
+LatexCommand href
+name "Title IX"
+target "https://www2.ed.gov/about/offices/list/ocr/docs/tix_dis.html"
+literal "false"
+
+\end_inset
+
+ 20 U.S.C.
+ §§ 1681-1688 makes it clear that violence and harassment based on sex and
+ gender, including violence and harassment based on sexual orientation,
+ are a Civil Rights offense subject to the same kinds of accountability
+ and the same kinds of support applied to offenses against other protected
+ categories such as race, national origin, etc.
  If you or someone you know has been harassed or assaulted, you can find
  the appropriate resources at 
-\begin_inset Flex Code
-status open
-
-\begin_layout Plain Layout
-ioa.ku.edu
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+name "ioa.ku.edu"
+target "ioa.ku.edu"
+literal "false"
 
 \end_inset
 
